@@ -1,0 +1,92 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* banner style */
+  .banner-container{
+    width: 80%;
+    height: 70vh;
+    background-color:rgba(198, 228, 214, 1);
+    position:center;
+
+  }
+  .banner-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .banner-title{
+    padding: 70px;
+  }
+  .title-text{
+    font-weight: 900;
+    font-size: 70;
+  }
+  /* btn-color */
+  .btn-color{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+  }
+  button{
+    font-size: medium;
+  }
+  /* pillars style */
+  .pillars-container{
+    display:flex ;
+    justify-content:;
+    gap: 15px;
+    padding-left: 85px;
+  }
+  .box{
+    width:240px ;
+    padding:20px;
+    border: 0.3px solid gray;
+    border-radius: 10px;
+  }
+.pillars-text{
+    padding-left: 85px;
+}
+  
+  /* vision style */
+  .vision{
+    width: 80%;
+    height: 477;
+    padding-left: 100px;
+    padding-right: 30px;
+  }
+  .vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+  }
+  .vision-box-1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+    width:440px ;
+    padding: 30px;
+    border-radius:20px ;
+  }
+  .vision-box-2{
+    background-color: rgba(198, 228, 214, 1);
+    width:440px ;
+    padding: 30px;
+    border-radius:20px ;
+  }
+  .vision-box-3{
+    background-color: rgba(247, 235, 207, 1);
+    width:440px ;
+    padding: 30px;
+    border-radius:20px ; 
+  }
+  .btn-1{
+    background-color:rgba(84, 144, 245, 1) ;
+    color:white ;
+  }
+  .btn-3{
+    background-color:rgba(255, 194, 57, 1) ;
+    color: white;
+  }
