@@ -11,6 +11,7 @@
     height: 70vh;
     background-color:rgba(198, 228, 214, 1);
     position:center;
+    margin: 0 auto;
 
   }
   .banner-box{
@@ -35,20 +36,24 @@
     font-size: medium;
   }
   /* pillars style */
+  .pilars{
+    margin: 0 auto;
+  }
   .pillars-container{
     display:flex ;
     justify-content:;
-    gap: 15px;
-    padding-left: 85px;
+    gap: 20px;
+    padding-left: 180px;
+    
   }
   .box{
-    width:240px ;
+    width:250px ;
     padding:20px;
     border: 0.3px solid gray;
     border-radius: 10px;
   }
 .pillars-text{
-    padding-left: 85px;
+    padding-left: 170px;
 }
   
   /* vision style */
@@ -57,16 +62,18 @@
     height: 477;
     padding-left: 100px;
     padding-right: 30px;
+    margin: 0 auto;
   }
   .vision-container{
     display: flex;
     justify-content: space-between;
     gap: 15px;
     
+    
   }
   .vision-box-1{
     background-color:rgba(84, 144, 245, 0.2) ;
-    width:440px ;
+    width:450px ;
     padding: 30px;
     border-radius:20px ;
   }
@@ -89,4 +96,83 @@
   .btn-3{
     background-color:rgba(255, 194, 57, 1) ;
     color: white;
+  }
+  /* survey style */
+  .container{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+  }
+  .table-cotanier{
+    margin-top: 20px;
+  }
+  table{
+    width: 100%;
+    height:300px;
+    border-collapse: collapse;
+    border: 1px solid gray;
+  }
+  th,td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid black;
+  }
+  th{
+    background-color: #cce5cc;
+    font-weight: bold;
+  }
+  .border{
+    text-align: center;
+  }
+  select{
+    border-left: 1px solid black;
+    width: 100px;
+    padding: 8px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#cce5cc ;
+    color: white;
+  }
+  .left{
+    text-align: left;
+  }
+  .do{
+    text-align: left;
+  }
+  .yes{
+    text-align: right;
+    background-color: rgba(9, 161, 92, 0.15);
+    color: white;
+  }
+  /* recent News */
+  .recent-box-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   margin: 0 auto;
+  }
+  .recent-box-2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   margin: 0 auto;
+  } 
+  .recent-box-3{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   margin: 0 auto;
+  }
+  .recent-title{
+    padding-left: 170px;
+  }
+  .btn-read{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
   }
